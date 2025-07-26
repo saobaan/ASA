@@ -3,9 +3,61 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ASAA Energy Solutions - Premium Solar Installation & Services</title>
-    <meta name="description" content="Leading solar energy solutions provider. Professional solar panel installation, maintenance, and renewable energy consulting services.">
+    <title>ASAA Energy Solutions - Premier Solar & Electrical Services in Lagos Nigeria</title>
+    <meta name="description" content="Leading solar energy and electrical panel experts in Lagos, Nigeria. Professional solar installation, electrical panels, maintenance, and renewable energy consulting. Get your free quote today!">
+    <meta name="keywords" content="solar panels Lagos Nigeria, electrical panels Lagos, solar installation Nigeria, renewable energy Lagos, solar power systems Nigeria, commercial solar Lagos, residential solar panels Nigeria, solar battery storage, electrical services Lagos, ASAA Energy Solutions">
+    <meta name="author" content="ASAA Energy Solutions">
+    <meta name="robots" content="index, follow">
+    
+    <!-- Open Graph Meta Tags for Social Media -->
+    <meta property="og:title" content="ASAA Energy Solutions - Premier Solar & Electrical Services Lagos Nigeria">
+    <meta property="og:description" content="Expert solar installations and electrical panel services in Lagos. Transform your energy costs with Nigeria's leading solar company.">
+    <meta property="og:image" content="https://yourusername.github.io/your-repo-name/logo.png">
+    <meta property="og:url" content="https://yourusername.github.io/your-repo-name">
+    <meta property="og:type" content="website">
+    
+    <!-- Twitter Card Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="ASAA Energy Solutions - Premier Solar & Electrical Services Lagos">
+    <meta name="twitter:description" content="Expert solar installations and electrical panel services in Lagos, Nigeria.">
+    <meta name="twitter:image" content="https://yourusername.github.io/your-repo-name/logo.png">
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "ASAA Energy Solutions",
+      "description": "Leading solar energy and electrical panel experts in Lagos, Nigeria",
+      "url": "https://yourusername.github.io/your-repo-name",
+      "telephone": "+234-806-117-5487",
+      "email": "info@asaaenergy.com",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "123 Energy Drive, Victoria Island",
+        "addressLocality": "Lagos",
+        "addressRegion": "Lagos State",
+        "addressCountry": "Nigeria"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "6.4281",
+        "longitude": "3.4219"
+      },
+      "openingHours": "Mo-Fr 08:00-18:00, Sa 09:00-16:00",
+      "serviceArea": "Lagos, Nigeria",
+      "priceRange": "$$",
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "4.9",
+        "reviewCount": "127"
+      },
+      "services": ["Solar Panel Installation", "Electrical Panel Services", "Battery Storage", "Energy Monitoring", "Maintenance"]
+    }
+    </script>
+    
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/emailjs-com/3.2.0/email.min.js"></script>
     <style>
         * {
             margin: 0;
@@ -394,6 +446,14 @@
             margin-right: 1rem;
             font-weight: bold;
             color: var(--text-dark);
+            overflow: hidden;
+        }
+
+        .author-avatar img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border-radius: 50%;
         }
 
         .author-info h4 {
@@ -489,7 +549,8 @@
         }
 
         .form-group input,
-        .form-group textarea {
+        .form-group textarea,
+        .form-group select {
             width: 100%;
             padding: 12px;
             border: 2px solid #e0e0e0;
@@ -499,9 +560,18 @@
         }
 
         .form-group input:focus,
-        .form-group textarea:focus {
+        .form-group textarea:focus,
+        .form-group select:focus {
             outline: none;
             border-color: var(--primary-green);
+        }
+
+        .form-status {
+            margin-top: 1rem;
+            text-align: center;
+            padding: 10px;
+            border-radius: 5px;
+            display: none;
         }
 
         /* Footer */
@@ -639,7 +709,7 @@
         <div class="container">
             <div class="hero-content fade-in-up">
                 <h1>Power Your Future with Solar Energy</h1>
-                <p>Leading provider of premium solar installations and renewable energy solutions. Transform your energy costs while protecting the environment with ASAA Energy Solutions.</p>
+                <p>Lagos' leading provider of premium solar installations and electrical panel services. Transform your energy costs while protecting the environment with ASAA Energy Solutions.</p>
                 <div class="hero-buttons">
                     <a href="#contact" class="btn-primary">Get Free Quote</a>
                     <a href="#services" class="btn-secondary">Our Services</a>
@@ -652,51 +722,51 @@
     <section id="features" class="features">
         <div class="container">
             <div class="section-title">
-                <h2>Why Choose ASAA Energy?</h2>
-                <p>We deliver exceptional solar solutions with unmatched quality, service, and value for your investment.</p>
+                <h2>Why Choose ASAA Energy Lagos?</h2>
+                <p>We deliver exceptional solar and electrical solutions with unmatched quality, service, and value for your investment across Lagos, Nigeria.</p>
             </div>
             <div class="features-grid">
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-solar-panel"></i>
                     </div>
-                    <h3>Premium Equipment</h3>
-                    <p>We use only the highest quality solar panels and inverters from industry-leading manufacturers, ensuring maximum efficiency and longevity.</p>
+                    <h3>Premium Solar Equipment</h3>
+                    <p>We use only the highest quality solar panels and inverters from industry-leading manufacturers, ensuring maximum efficiency and longevity for Lagos homes and businesses.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-tools"></i>
                     </div>
                     <h3>Expert Installation</h3>
-                    <p>Our certified technicians provide professional installation services with attention to detail and strict adherence to safety standards.</p>
+                    <p>Our certified technicians provide professional installation services with attention to detail and strict adherence to Nigerian electrical safety standards.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-shield-alt"></i>
                     </div>
                     <h3>25-Year Warranty</h3>
-                    <p>Comprehensive warranty coverage on all installations, giving you peace of mind and protection for your solar investment.</p>
+                    <p>Comprehensive warranty coverage on all installations, giving you peace of mind and protection for your solar investment in Lagos.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-chart-line"></i>
                     </div>
                     <h3>Maximum Savings</h3>
-                    <p>Optimize your energy production and minimize costs with our advanced monitoring systems and efficiency solutions.</p>
+                    <p>Optimize your energy production and minimize costs with our advanced monitoring systems designed for Lagos' climate conditions.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-headset"></i>
                     </div>
-                    <h3>24/7 Support</h3>
-                    <p>Round-the-clock customer support and maintenance services to ensure your solar system operates at peak performance.</p>
+                    <h3>24/7 Support Lagos</h3>
+                    <p>Round-the-clock customer support and maintenance services across Lagos to ensure your solar system operates at peak performance.</p>
                 </div>
                 <div class="feature-card">
                     <div class="feature-icon">
                         <i class="fas fa-leaf"></i>
                     </div>
                     <h3>Eco-Friendly</h3>
-                    <p>Reduce your carbon footprint and contribute to a sustainable future while enjoying clean, renewable energy.</p>
+                    <p>Reduce your carbon footprint and contribute to a sustainable future while enjoying clean, renewable energy in Nigeria.</p>
                 </div>
             </div>
         </div>
@@ -706,33 +776,41 @@
     <section id="services" class="services">
         <div class="container">
             <div class="section-title">
-                <h2>Our Solar Services</h2>
-                <p>Comprehensive solar solutions tailored to meet your specific energy needs and requirements.</p>
+                <h2>Our Solar & Electrical Services in Lagos</h2>
+                <p>Comprehensive solar and electrical solutions tailored to meet Lagos' specific energy needs and requirements.</p>
             </div>
             <div class="services-grid">
                 <div class="service-card">
-                    <h3><i class="fas fa-home"></i> Residential Solar</h3>
-                    <p>Custom solar panel systems designed for homes, reducing electricity bills and increasing property value. Our residential solutions include roof-mounted and ground-mounted options.</p>
+                    <h3><i class="fas fa-home"></i> Residential Solar Lagos</h3>
+                    <p>Custom solar panel systems designed for Lagos homes, reducing electricity bills and increasing property value. Our residential solutions include roof-mounted and ground-mounted options perfect for Lagos weather.</p>
                 </div>
                 <div class="service-card">
-                    <h3><i class="fas fa-building"></i> Commercial Solar</h3>
-                    <p>Large-scale solar installations for businesses and commercial properties. Maximize your ROI with our efficient commercial solar solutions and financing options.</p>
+                    <h3><i class="fas fa-building"></i> Commercial Solar Lagos</h3>
+                    <p>Large-scale solar installations for Lagos businesses and commercial properties. Maximize your ROI with our efficient commercial solar solutions and flexible financing options.</p>
                 </div>
                 <div class="service-card">
-                    <h3><i class="fas fa-battery-full"></i> Energy Storage</h3>
-                    <p>Advanced battery storage systems to store excess solar energy for use during peak hours or power outages. Achieve energy independence with our storage solutions.</p>
+                    <h3><i class="fas fa-bolt"></i> Electrical Panel Services</h3>
+                    <p>Expert electrical panel installation, upgrade, and maintenance services in Lagos. Our certified electricians ensure safe, reliable power distribution for your solar system and property.</p>
+                </div>
+                <div class="service-card">
+                    <h3><i class="fas fa-battery-full"></i> Energy Storage Solutions</h3>
+                    <p>Advanced battery storage systems to store excess solar energy for use during peak hours or power outages. Achieve energy independence in Lagos with our storage solutions.</p>
                 </div>
                 <div class="service-card">
                     <h3><i class="fas fa-wrench"></i> Maintenance & Repair</h3>
-                    <p>Professional maintenance services to keep your solar system operating efficiently. Regular inspections, cleaning, and repairs to maximize system performance.</p>
+                    <p>Professional maintenance services to keep your solar system operating efficiently in Lagos. Regular inspections, cleaning, and repairs to maximize system performance.</p>
                 </div>
                 <div class="service-card">
                     <h3><i class="fas fa-chart-bar"></i> Energy Monitoring</h3>
-                    <p>Real-time monitoring systems to track your solar energy production and consumption. Optimize performance with detailed analytics and insights.</p>
+                    <p>Real-time monitoring systems to track your solar energy production and consumption. Optimize performance with detailed analytics designed for Lagos energy patterns.</p>
                 </div>
                 <div class="service-card">
-                    <h3><i class="fas fa-clipboard-check"></i> Energy Audits</h3>
-                    <p>Comprehensive energy assessments to identify opportunities for efficiency improvements and optimal solar system sizing for your property.</p>
+                    <h3><i class="fas fa-clipboard-check"></i> Energy Audits Lagos</h3>
+                    <p>Comprehensive energy assessments for Lagos properties to identify opportunities for efficiency improvements and optimal solar system sizing.</p>
+                </div>
+                <div class="service-card">
+                    <h3><i class="fas fa-cogs"></i> System Integration</h3>
+                    <p>Seamless integration of solar systems with existing electrical infrastructure, ensuring optimal performance and safety compliance in Lagos installations.</p>
                 </div>
             </div>
         </div>
@@ -744,7 +822,7 @@
             <div class="stats-grid">
                 <div class="stat-item">
                     <div class="stat-number">500+</div>
-                    <div class="stat-label">Installations Completed</div>
+                    <div class="stat-label">Lagos Installations Completed</div>
                 </div>
                 <div class="stat-item">
                     <div class="stat-number">25MW</div>
@@ -756,7 +834,7 @@
                 </div>
                 <div class="stat-item">
                     <div class="stat-number">15+</div>
-                    <div class="stat-label">Years Experience</div>
+                    <div class="stat-label">Years Experience Lagos</div>
                 </div>
             </div>
         </div>
@@ -766,79 +844,94 @@
     <section id="testimonials" class="testimonials">
         <div class="container">
             <div class="section-title">
-                <h2>What Our Customers Say</h2>
-                <p>Read testimonials from satisfied customers who have transformed their energy costs with our solar solutions.</p>
+                <h2>What Our Lagos Customers Say</h2>
+                <p>Read testimonials from satisfied customers across Lagos who have transformed their energy costs with our solar and electrical solutions.</p>
             </div>
             <div class="testimonials-grid">
                 <div class="testimonial-card">
-                    <div class="testimonial-text">
-                        "ASAA Energy Solutions exceeded our expectations. The installation was seamless, and we've seen a 70% reduction in our electricity bills. The team was professional and knowledgeable throughout the entire process."
-                    </div>
                     <div class="testimonial-author">
-                        <div class="author-avatar">MJ</div>
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&h=150&fit=crop&crop=face" alt="Michael Johnson" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <span style="display:none;">MJ</span>
+                        </div>
                         <div class="author-info">
                             <h4>Michael Johnson</h4>
-                            <small>Homeowner, Lagos</small>
+                            <small>Homeowner, Victoria Island Lagos</small>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <div class="testimonial-text">
-                        "Our commercial solar installation has been a game-changer for our business. The ROI was faster than expected, and the system has been performing flawlessly for over two years now."
+                        "Our commercial solar installation has been a game-changer for our business in Ikeja. The ROI was faster than expected, and the electrical panel integration has been performing flawlessly for over two years."
                     </div>
                     <div class="testimonial-author">
-                        <div class="author-avatar">SA</div>
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1494790108755-2616b612b865?w=150&h=150&fit=crop&crop=face" alt="Sarah Ahmed" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <span style="display:none;">SA</span>
+                        </div>
                         <div class="author-info">
                             <h4>Sarah Ahmed</h4>
-                            <small>Business Owner, Abuja</small>
+                            <small>Business Owner, Ikeja Lagos</small>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <div class="testimonial-text">
-                        "The quality of service and ongoing support from ASAA Energy is outstanding. They helped us navigate the entire process from consultation to installation and beyond. Highly recommended!"
+                        "The quality of service and ongoing support from ASAA Energy is outstanding. They helped us navigate the entire process from consultation to electrical panel upgrade and solar installation in Lekki."
                     </div>
                     <div class="testimonial-author">
-                        <div class="author-avatar">DO</div>
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=150&h=150&fit=crop&crop=face" alt="David Okafor" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <span style="display:none;">DO</span>
+                        </div>
                         <div class="author-info">
                             <h4>David Okafor</h4>
-                            <small>Engineer, Port Harcourt</small>
+                            <small>Engineer, Lekki Lagos</small>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <div class="testimonial-text">
-                        "From day one, ASAA Energy demonstrated professionalism and expertise. Our solar system has been producing more energy than projected, and the monitoring system keeps us informed daily."
+                        "From day one, ASAA Energy demonstrated professionalism and expertise. Our solar system has been producing more energy than projected, and the electrical panel monitoring system keeps us informed daily."
                     </div>
                     <div class="testimonial-author">
-                        <div class="author-avatar">FI</div>
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&h=150&fit=crop&crop=face" alt="Fatima Ibrahim" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <span style="display:none;">FI</span>
+                        </div>
                         <div class="author-info">
                             <h4>Fatima Ibrahim</h4>
-                            <small>Architect, Kano</small>
+                            <small>Architect, Yaba Lagos</small>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <div class="testimonial-text">
-                        "Choosing ASAA Energy was the best decision for our factory. The commercial installation reduced our operational costs significantly, and the system reliability has been exceptional."
+                        "Choosing ASAA Energy was the best decision for our factory in Agege. The commercial installation and electrical panel upgrade reduced our operational costs significantly with exceptional system reliability."
                     </div>
                     <div class="testimonial-author">
-                        <div class="author-avatar">TA</div>
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?w=150&h=150&fit=crop&crop=face" alt="Tunde Adeleke" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <span style="display:none;">TA</span>
+                        </div>
                         <div class="author-info">
                             <h4>Tunde Adeleke</h4>
-                            <small>Factory Manager, Ibadan</small>
+                            <small>Factory Manager, Agege Lagos</small>
                         </div>
                     </div>
                 </div>
                 <div class="testimonial-card">
                     <div class="testimonial-text">
-                        "The battery storage solution from ASAA Energy has given us complete energy independence. Even during power outages, our home runs smoothly on stored solar energy."
+                        "The battery storage solution and electrical panel upgrade from ASAA Energy has given us complete energy independence. Even during power outages in Surulere, our home runs smoothly on stored solar energy."
                     </div>
                     <div class="testimonial-author">
-                        <div class="author-avatar">GN</div>
+                        <div class="author-avatar">
+                            <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=150&h=150&fit=crop&crop=face" alt="Grace Nwankwo" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <span style="display:none;">GN</span>
+                        </div>
                         <div class="author-info">
                             <h4>Grace Nwankwo</h4>
-                            <small>Doctor, Enugu</small>
+                            <small>Doctor, Surulere Lagos</small>
                         </div>
                     </div>
                 </div>
@@ -850,8 +943,8 @@
     <section id="contact" class="contact">
         <div class="container">
             <div class="section-title">
-                <h2>Get Your Free Solar Quote</h2>
-                <p>Ready to start your solar journey? Contact us today for a personalized consultation and free quote.</p>
+                <h2>Get Your Free Solar Quote in Lagos</h2>
+                <p>Ready to start your solar journey in Lagos? Contact us today for a personalized consultation and free quote for solar and electrical panel services.</p>
             </div>
             <div class="contact-grid">
                 <div class="contact-info">
@@ -887,22 +980,39 @@
                 </div>
                 <div class="contact-form">
                     <h3>Request Your Free Quote</h3>
-                    <form>
+                    <form id="quote-form">
                         <div class="form-group">
                             <label for="name">Full Name</label>
-                            <input type="text" id="name" name="name" required>
+                            <input type="text" id="name" name="from_name" required>
                         </div>
                         <div class="form-group">
                             <label for="email">Email Address</label>
-                            <input type="email" id="email" name="email" required>
+                            <input type="email" id="email" name="from_email" required>
                         </div>
                         <div class="form-group">
                             <label for="phone">Phone Number</label>
                             <input type="tel" id="phone" name="phone" required>
                         </div>
                         <div class="form-group">
+                            <label for="location">Location in Lagos</label>
+                            <select id="location" name="location" required>
+                                <option value="">Select Your Area</option>
+                                <option value="Victoria Island">Victoria Island</option>
+                                <option value="Ikoyi">Ikoyi</option>
+                                <option value="Lekki">Lekki</option>
+                                <option value="Ikeja">Ikeja</option>
+                                <option value="Yaba">Yaba</option>
+                                <option value="Surulere">Surulere</option>
+                                <option value="Agege">Agege</option>
+                                <option value="Apapa">Apapa</option>
+                                <option value="Mushin">Mushin</option>
+                                <option value="Alimosho">Alimosho</option>
+                                <option value="Other Lagos Area">Other Lagos Area</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
                             <label for="property-type">Property Type</label>
-                            <select id="property-type" name="property-type" style="width: 100%; padding: 12px; border: 2px solid #e0e0e0; border-radius: 8px; font-size: 1rem;">
+                            <select id="property-type" name="property_type" required>
                                 <option value="">Select Property Type</option>
                                 <option value="residential">Residential</option>
                                 <option value="commercial">Commercial</option>
@@ -910,10 +1020,23 @@
                             </select>
                         </div>
                         <div class="form-group">
-                            <label for="message">Additional Information</label>
-                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your energy needs, property size, or any specific requirements..."></textarea>
+                            <label for="service-interest">Service Interest</label>
+                            <select id="service-interest" name="service_interest" required>
+                                <option value="">Select Service</option>
+                                <option value="solar-installation">Solar Installation</option>
+                                <option value="electrical-panels">Electrical Panels</option>
+                                <option value="battery-storage">Battery Storage</option>
+                                <option value="maintenance">Maintenance & Repair</option>
+                                <option value="energy-audit">Energy Audit</option>
+                                <option value="complete-package">Complete Solar + Electrical Package</option>
+                            </select>
                         </div>
-                        <button type="submit" class="btn-primary" style="width: 100%; border: none; cursor: pointer;">Get Free Quote</button>
+                        <div class="form-group">
+                            <label for="message">Additional Information</label>
+                            <textarea id="message" name="message" rows="5" placeholder="Tell us about your energy needs, property size, current electrical setup, or any specific requirements..."></textarea>
+                        </div>
+                        <button type="submit" id="submit-btn" class="btn-primary" style="width: 100%; border: none; cursor: pointer;">Get Free Quote</button>
+                        <div id="form-status" class="form-status"></div>
                     </form>
                 </div>
             </div>
@@ -926,48 +1049,82 @@
             <div class="footer-content">
                 <div class="footer-section">
                     <h3>ASAA Energy Solutions</h3>
-                    <p>Leading provider of premium solar energy solutions in Nigeria. Powering your future with clean, renewable energy.</p>
+                    <p>Leading provider of premium solar energy and electrical panel services in Lagos, Nigeria. Powering Lagos' sustainable future with clean, renewable energy.</p>
                     <div class="social-links">
-                        <a href="#"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="https://facebook.com/asaaenergy" target="_blank" rel="noopener"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://twitter.com/asaaenergy" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+                        <a href="https://linkedin.com/company/asaaenergy" target="_blank" rel="noopener"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://instagram.com/asaaenergy" target="_blank" rel="noopener"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
                 <div class="footer-section">
                     <h3>Services</h3>
                     <ul style="list-style: none; padding: 0;">
-                        <li style="margin-bottom: 0.5rem;"><a href="#services">Residential Solar</a></li>
-                        <li style="margin-bottom: 0.5rem;"><a href="#services">Commercial Solar</a></li>
-                        <li style="margin-bottom: 0.5rem;"><a href="#services">Energy Storage</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#services">Residential Solar Lagos</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#services">Commercial Solar Lagos</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#services">Electrical Panel Services</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#services">Energy Storage Solutions</a></li>
                         <li style="margin-bottom: 0.5rem;"><a href="#services">Maintenance & Repair</a></li>
-                        <li style="margin-bottom: 0.5rem;"><a href="#services">Energy Monitoring</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
-                    <h3>Quick Links</h3>
+                    <h3>Lagos Areas Served</h3>
                     <ul style="list-style: none; padding: 0;">
-                        <li style="margin-bottom: 0.5rem;"><a href="#home">Home</a></li>
-                        <li style="margin-bottom: 0.5rem;"><a href="#services">Services</a></li>
-                        <li style="margin-bottom: 0.5rem;"><a href="#testimonials">Testimonials</a></li>
-                        <li style="margin-bottom: 0.5rem;"><a href="#contact">Contact</a></li>
-                        <li style="margin-bottom: 0.5rem;"><a href="#contact">Get Quote</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#contact">Victoria Island</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#contact">Lekki & Ikoyi</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#contact">Ikeja & Yaba</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#contact">Surulere & Agege</a></li>
+                        <li style="margin-bottom: 0.5rem;"><a href="#contact">All Lagos Areas</a></li>
                     </ul>
                 </div>
                 <div class="footer-section">
                     <h3>Contact Info</h3>
                     <p><i class="fas fa-map-marker-alt" style="margin-right: 10px; color: var(--accent-gold);"></i>Victoria Island, Lagos, Nigeria</p>
-                    <p><i class="fas fa-phone" style="margin-right: 10px; color: var(--accent-gold);"></i>+234 701 234 5678</p>
+                    <p><i class="fas fa-phone" style="margin-right: 10px; color: var(--accent-gold);"></i>+234 806 117 5487</p>
                     <p><i class="fas fa-envelope" style="margin-right: 10px; color: var(--accent-gold);"></i>info@asaaenergy.com</p>
                 </div>
             </div>
             <div style="border-top: 1px solid rgba(255,255,255,0.2); padding-top: 20px; text-align: center;">
-                <p>&copy; 2025 ASAA Energy Solutions. All rights reserved. | Powering Nigeria's Sustainable Future</p>
+                <p>&copy; 2025 ASAA Energy Solutions. All rights reserved. | Powering Lagos' Sustainable Future | Solar & Electrical Experts</p>
             </div>
         </div>
     </footer>
 
     <script>
+        // Initialize EmailJS with your actual public key
+        (function() {
+            emailjs.init("5RQbEMXKBVGZuDzVZ");
+        })();
+
+        // Form submission handling with EmailJS
+        document.getElementById('quote-form').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const submitBtn = document.getElementById('submit-btn');
+            const formStatus = document.getElementById('form-status');
+            
+            // Show loading state
+            submitBtn.textContent = 'Sending...';
+            submitBtn.disabled = true;
+            formStatus.style.display = 'block';
+            formStatus.innerHTML = '<p style="color: #666;">⏳ Sending your request...</p>';
+            
+            // Send email using EmailJS with your actual service and template IDs
+            emailjs.sendForm('service_woiqs0q', 'template_m432s6r', this)
+                .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    formStatus.innerHTML = '<p style="color: #228B22; font-weight: bold;">✅ Thank you! We\'ll contact you within 24 hours with your free quote.</p>';
+                    document.getElementById('quote-form').reset();
+                }, function(error) {
+                    console.log('FAILED...', error);
+                    formStatus.innerHTML = '<p style="color: #dc3545;">❌ Sorry, there was an error. Please call us directly at +234 806 117 5487</p>';
+                })
+                .finally(function() {
+                    submitBtn.textContent = 'Get Free Quote';
+                    submitBtn.disabled = false;
+                });
+        });
+
         // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
@@ -990,34 +1147,6 @@
             } else {
                 header.style.background = 'linear-gradient(135deg, var(--primary-green), var(--secondary-green))';
             }
-        });
-
-        // Form submission handling
-        document.querySelector('form').addEventListener('submit', function(e) {
-            e.preventDefault();
-            
-            // Get form data
-            const formData = new FormData(this);
-            const data = Object.fromEntries(formData);
-            
-            // Simple validation
-            if (!data.name || !data.email || !data.phone) {
-                alert('Please fill in all required fields.');
-                return;
-            }
-            
-            // Email validation
-            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-            if (!emailRegex.test(data.email)) {
-                alert('Please enter a valid email address.');
-                return;
-            }
-            
-            // Show success message
-            alert('Thank you for your interest! We will contact you within 24 hours with your free solar quote.');
-            
-            // Reset form
-            this.reset();
         });
 
         // Animate stats on scroll
@@ -1079,12 +1208,6 @@
             observer.observe(section);
         });
 
-        // Mobile menu toggle (if needed for future mobile menu implementation)
-        function toggleMobileMenu() {
-            const navLinks = document.querySelector('.nav-links');
-            navLinks.classList.toggle('active');
-        }
-
         // Add loading effect to buttons
         document.querySelectorAll('.btn-primary, .btn-secondary, .cta-button').forEach(button => {
             button.addEventListener('click', function(e) {
@@ -1111,4 +1234,7 @@
         });
     </script>
 </body>
-</html>
+</html>ial-text">
+                        "ASAA Energy Solutions exceeded our expectations. The installation was seamless, and we've seen a 70% reduction in our electricity bills. The electrical panel upgrade was perfectly integrated with our solar system."
+                    </div>
+                    <div class="testimon
